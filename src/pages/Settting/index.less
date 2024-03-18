@@ -1,0 +1,84 @@
+.setting {
+  .setting-tools {
+    height: 59px;
+    padding: 0 20px 0 20px;
+    // border-top: 5px solid rgb(242,242,242);
+    border-bottom: 15px solid rgb(242,242,242);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .survey-info {
+      display: flex;
+      width: 700px;
+      // justify-content: space-between;
+      align-items: center;
+      span {
+        margin-right: 20px;
+        font-size: 14px;
+      }
+      .survey-title {
+        width: 200px;
+        font-size: 14px;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .survey-btns {
+      .ant-btn {
+        &:nth-child(2) {
+          background-color: #555891;
+          border-color: #555891;
+        }
+      }
+    }
+  }
+  .setting-tabs {
+    background-color: #fff;
+    padding: 0 20px 40px 20px;
+  }
+  .setting-box {
+    margin: 5px 0;
+  }
+  .statistic .statistic-tool .tool-left .ant-select {
+    margin-bottom: 10px;
+  }
+  .ant-form.ant-form-horizontal{
+    margin-top: 20px;
+  }
+  .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: 30px;
+  }
+  .control-item.button b{
+    font-size: 12px !important;
+    font-weight: normal;
+  }
+  .ant-modal-body .ant-select .ant-select-selector{
+    margin: 10px 0;
+  }
+  .deadline .ant-radio-group .survey-link .ant-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .deadline .ant-radio-group .survey-link .ant-btn.ant-btn-primary {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+  }
+
+  .ant-modal-content .ant-modal-body .urge-title{
+    margin-bottom: 20px ;
+    display: block;
+  }
+  .progress .tool-right .ant-btn{
+    font-size: 14px;
+  }
+  .statistic .tool-right .ant-btn{
+    font-size: 14px;
+  }
+}
+

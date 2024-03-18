@@ -1,0 +1,5 @@
+{
+  "ssourl": "https://hysso.hygon.cn:8443/auth/redirect",
+  "ssoInnerUrl": "http://ssordn.higon.com/#/sign/login",
+  "logouturl": "https://ssoedn.hygon.cn:8443/saml/logout"
+}
